@@ -324,7 +324,7 @@ $con = dbConnect();
 				<br />
 				<p>
 					Mamy ponad 100 opcji noclegów na całym świecie . Dotyczy to hoteli,
-					hosteli, apartamentów, willi a nawet kempingów Znajdź odpowiednie
+					hosteli, apartamentów, willi a nawet kempingów .Znajdź odpowiednie
 					zakwaterowanie w dowolnym terminie rok.
 				</p>
 			</span>
