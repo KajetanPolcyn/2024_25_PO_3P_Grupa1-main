@@ -1,0 +1,375 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: black;
+	color: white;
+	scrollbar-width: 2px;
+	scroll-behavior: smooth;
+	background-color: rgb(87, 41, 241);
+	overflow-x: hidden;
+}
+/*Header------------------------------------*/
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: rgb(40, 31, 87);
+	width: 100%;
+}
+
+.header-left {
+	margin: 10px 25px;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	width: 40%;
+	padding: 0 50px 0 100px;
+}
+
+.header-left h1 {
+	font-size: 30px;
+	float: left;
+	font-weight: 100;
+}
+.header-left img {
+	width: 60px;
+	height: 60px;
+	float: left;
+}
+.header-left h3 {
+	font-size: 28px;
+}
+nav {
+	flex: 1;
+	margin: 20px 20px;
+	width: 60%;
+}
+
+header nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+
+	width: 90%;
+	gap: 20px;
+}
+nav ul li {
+	font-size: 23px;
+}
+nav ul li form input[type="submit"] {
+	height: 30px;
+	text-align: center;
+	min-width: 120px;
+	max-width: 170px;
+	background-color: #014adc;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: 500;
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+header nav ul li a {
+	text-decoration: none;
+	color: white;
+}
+#wyszukiwanie {
+	background-color: rgb(87, 41, 241);
+	height: 370px;
+	width: 100%;
+	text-align: center;
+	padding: 100px 0;
+}
+
+#search {
+	padding: 40px;
+	width: 85%;
+	height: 130px;
+	background-color: white;
+	border-radius: 15px;
+
+	margin: auto;
+}
+#search form {
+	color: black;
+}
+#search ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	list-style-type: none;
+}
+#wyszukiwanie input:not(#check_news) {
+	padding: 30px 20px 20px 15px;
+	background-color: white;
+	color: black;
+	height: 45px;
+	width: 140px;
+	font-size: 14px;
+}
+
+.search-button {
+	background-color: #0056ff;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: 100;
+	width: 300px;
+	height: 50px;
+	font-size: 17px;
+}
+#wyszukiwanie select {
+	height: 50px;
+	background-color: white;
+	width: 150px;
+	padding: 10px 15px 0px 15px;
+	font-size: 14px;
+}
+
+#location {
+	width: 250px !important;
+}
+
+.input-container {
+	position: relative;
+	width: 100%;
+	max-width: 300px;
+}
+
+.text-input {
+	width: 100%;
+	padding: 20px 10px 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 13px;
+}
+
+.input-label {
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	font-size: 13px;
+	color: black;
+	pointer-events: none;
+	background-color: white;
+	padding: 0 5px;
+}
+
+/* Proponowane ---------------------------------- */
+#proponowane {
+	margin-inline: auto;
+	width: 90%;
+	height: fit-content;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: rgb(87, 41, 241);
+	margin-bottom: 50px;
+	gap: 5vw;
+}
+
+.propozycja {
+	width: 21vw !important;
+	min-width: 300px;
+	max-width: 400px;
+	height: 80%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	border: 2px solid white;
+	border-radius: 15px;
+	background-color: white;
+	padding: 2px;
+}
+.proponowane_tekst {
+	padding: 14px;
+}
+.propozycja img {
+	width: 100%;
+	height: 50%;
+
+	border-radius: 15px;
+}
+
+.zanoc {
+	/* to ile za noc i Plusik */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.zanoc form input[type="submit"] {
+	width: 30px;
+	height: 30px;
+	background-color: rgb(64, 8, 248);
+	border-radius: 10px;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	border: none;
+	margin-top: -5px;
+}
+.zanoc form input[type="submit"]:hover {
+	background-color: rgb(240, 240, 240);
+	color: rgb(56, 137, 121);
+}
+#proponowane h4 {
+	color: #bfbfbf;
+	font-weight: 200;
+}
+#proponowane h3 {
+	color: black;
+	font-weight: 200;
+	font-size: 17px;
+}
+
+/* Opisy------------------------------------------ */
+
+#opisy {
+	width: 100%;
+	min-height: 1400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	background-color: rgb(87, 41, 241);
+}
+
+#opisy hr {
+	height: 17px;
+	background-color: #4a4853;
+	width: 100%;
+	border: 0;
+}
+.zakladka {
+	width: 90%;
+	margin: 5%;
+	height: 400px;
+	border-radius: 15px;
+	background-color: white;
+	color: black;
+	overflow: hidden;
+	padding: 13px;
+}
+
+.zakladka_image {
+	float: left;
+	width: 45%;
+	height: 100%;
+}
+.zakladka_image img {
+	width: 100%;
+	height: 100%;
+}
+
+.zakladka_tekst {
+	float: left;
+	width: 45%;
+	height: 100%;
+	padding: 0px 45px;
+}
+
+.zakladka_tekst h2 {
+	font-size: 34px;
+	font-weight: 100;
+}
+
+.zakladka_tekst h3 {
+	color: #bfbfbf;
+	font-weight: 100;
+	font-size: 21px;
+}
+
+.zakladka_tekst p {
+	font-size: 17px;
+}
+
+.przyciski_zakladka {
+	display: flex;
+	flex-direction: row;
+	gap: 4%;
+}
+.przyciski_zakladka button > a {
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: 100;
+	font-size: 17px;
+}
+.przyciski_zakladka button {
+	text-align: center;
+}
+.button1 {
+	width: 45%;
+	height: 50px;
+	border-radius: 5px;
+	background-color: lime;
+	border: none;
+}
+.button2 {
+	width: 45%;
+	height: 50px;
+	border-radius: 5px;
+	background-color: rgb(24, 24, 213);
+	border: none;
+}
+
+/* Kontakt */
+
+#kontakt_block {
+	width: 90%;
+	margin: 0px auto;
+	height: 300px;
+	background-color: rgb(28, 28, 28);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#numer_kontakt {
+	float: left;
+	text-align: center;
+	width: 50%;
+}
+#numer_kontakt2 {
+	width: 80%;
+	margin: auto;
+	margin-left: 20px;
+}
+#kontakt_block h2 {
+	font-size: 30px;
+	font-weight: 100;
+}
+#sociale {
+	display: flex;
+	flex-direction: row;
+	gap: 5%;
+	justify-content: center;
+}
+#numer_kontakt img {
+	width: 11%;
+}
+#email_kontakt {
+	float: left;
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+#email_kontakt hr {
+	width: 80%;
+}
+#email_kontakt a,
+#email_kontakt h3 {
+	color: gray;
+	text-decoration: none;
+	font-size: 26px;
+	margin: 12px 0px;
+	font-weight: 100;
+}

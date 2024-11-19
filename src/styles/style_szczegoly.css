@@ -1,0 +1,502 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    scrollbar-width: 2px;
+    scroll-behavior: smooth;
+    background-color: rgb(87, 41, 241);
+    overflow-x: hidden;
+}
+/*Header------------------------------------*/
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(40, 31, 87);
+    width: 100%;
+    
+}
+
+.header-left {
+    margin: 10px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 40%;
+    padding: 0 50px 0 100px;
+    
+}
+
+.header-left h1 {
+    font-size: 30px;
+    float: left;
+    font-weight: 100;
+}
+.header-left img {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+.header-left h3 {
+    font-size: 28px;
+}
+nav {
+    flex:1;
+    margin: 20px 20px;
+    width: 60%;
+
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    gap: 20px;
+    
+}
+nav ul li {
+    font-size: 23px;
+   
+}
+nav ul li form input[type="submit"]{
+   
+    height: 30px;
+    text-align: center;
+    min-width: 120px;
+    max-width: 170px;
+    background-color: #014adc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+/* Search ---------------------------- */
+#wyszukiwanie {
+    background-color: rgb(87, 41, 241);
+    height: 370px;
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+}
+
+
+
+#search {
+    padding: 40px;
+    width: 85%;
+    height: 130px;
+    background-color: white;
+    border-radius: 15px;
+
+    margin: auto;
+}
+#search form {
+    color:black;
+}
+#search ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+}
+#wyszukiwanie input:not(#check_news){
+    padding: 30px 20px 20px 15px;
+    background-color: white;
+    color: black;
+    height: 45px;
+    width: 140px;
+    font-size: 14px;
+    
+}
+
+.search-button {
+    background-color: #0056ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 100;
+    width: 300px;
+    height: 50px;
+    font-size: 17px;
+}
+#wyszukiwanie select{
+    height: 50px;
+    background-color: white;
+    width: 150px;
+    padding: 10px 15px 0px 15px;
+    font-size: 14px;
+}
+
+#location {
+    width: 250px !important;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    max-width: 300px; 
+}
+
+.text-input {
+    width: 100%;
+    padding: 20px 10px 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+
+.input-label {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-size: 13px;
+    color: black;
+    pointer-events: none;
+    background-color: white; 
+    padding: 0 5px; 
+}
+
+/* Zdjecia ---------------------------------- */
+
+#szczegoly_hoteli {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: .5%;
+}
+.block_main {
+    display: flex;
+    width: 85%;
+    height: 600px;
+    gap: 10px;
+}
+.lewy_blok {
+    width: 40%; 
+    height: 100%;
+}
+
+.lewy_blok_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.prawy_blok {
+    width: 58%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.prawy_gorny {
+    width: 100%;
+    height: 49%;
+    object-fit: cover; 
+}
+
+.prawy_dolny {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    height: 50%;
+}
+
+.prawy_dolny_lewy {
+    width: 58.5%; 
+    object-fit: cover;
+}
+
+.prawy_dolny_prawy {
+    width: 40%; 
+}
+
+/* Szczegoly opis */
+
+.centerer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 100px 0;
+    width: 100%;
+}
+
+#szczegoly_main_block {
+    background-color: white;
+    width: 84%;
+    padding: 1.5%;
+    border-radius: 15px;
+    height: 850px;
+    color: black;
+}
+#szczegoly_info_block {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+
+#szczegoly_info_block_left {
+    width: 50%;
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    margin-top: 30px;
+}
+#szczegoly_info_block_right {
+    width: 50%;   
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    margin-top: 30px; 
+}
+
+.szczegolowe_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+    width: 95%;
+}
+.oceny_gwiazdki {
+    display: flex;
+    flex-direction: row;
+    gap: 8%;
+}
+.kolumna {
+    display: flex;
+    flex-direction: column;
+}
+.kolumna > img {
+    width: 110px !important;
+    height: 15px !important;
+}
+
+.oceny {
+
+}
+
+#szczegoly_przycisk {
+
+}
+
+.like_bar {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+.gray_bar {
+    width: 200px;
+    height: 15px;
+    background-color: gray;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 15px;
+    position: relative;
+    
+    overflow: hidden;
+}
+.green_bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(63, 183, 111);
+    width: 20%;
+    height: 100%;
+    border-radius: 15px;
+    z-index: 1;
+}
+.tekst_bar {
+    z-index: 2;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+
+span {
+    
+    font-weight: bold;
+}
+
+#szczegoly_main_block h1 {
+    font-size: 30px;
+}
+
+#szczegoly_main_block h2 {
+    
+}
+
+#szczegoly_main_block p.opis {
+    font-size: 16px;
+    color:#434343;
+    margin-top: 8.5%;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+#szczegoly_main_block p {
+    font-size: 15px;
+    color:#5d5d5d;
+}
+
+#szczegoly_info_block_right h4 {
+    padding: 30px 30px 30px -20px;
+}
+
+#szczegoly_main_block h5 {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 5px;
+    margin-left: 0;
+}
+
+#szczegoly_main_block h6 {
+    font-size: 11px;
+    font-weight: bold;
+    color: #434343;
+    margin-inline: 5px;
+    margin-left: 0;
+    margin-top: 15px;
+}
+
+#szczegoly_main_block ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+#szczegoly_main_block ul  li{
+    width: 40%;
+    height: 20px;
+    margin: 10px;
+    margin-left: 0px;
+    font-size: 14px;
+}
+
+#szczegoly_main_block ul  li img{
+    width: 20px;
+    height: 20px;
+}
+#szczegoly_przycisk {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+#szczegoly_przycisk form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#szczegoly_przycisk form input[type="submit"] {
+    background-color: #014adc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    width: 60%;
+    height: 50px;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Kontakt */
+
+#kontakt_block {
+    width: 90%;
+    margin:0px auto;
+    height: 300px;
+    background-color: rgb(28, 28, 28);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#numer_kontakt {
+    float: left;
+    text-align: center;
+    width: 50%;
+
+}
+#numer_kontakt2 {
+    width: 80%;
+    margin: auto;
+    margin-left: 20px;
+   
+}
+#kontakt_block h2 {
+    font-size: 30px;
+    font-weight: 100;
+   
+}
+#sociale {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+}
+#numer_kontakt img {
+    width: 11%;
+}
+#email_kontakt {
+    float: left;
+    display: flex;
+    flex-direction:column;
+    width: 50%;
+}
+#email_kontakt hr {
+    width: 80%;
+}
+#email_kontakt a,  #email_kontakt h3{
+    color: gray;
+    text-decoration: none;
+    font-size: 26px;
+    margin: 12px 0px;
+    font-weight: 100;
+}
+

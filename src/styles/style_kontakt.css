@@ -1,0 +1,187 @@
+body {
+    background-color: rgb(48, 17, 100);
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    font-weight:200 ;
+    height: 100%;
+}
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: 40px;
+    width: 100%;
+    
+}
+
+/* .header-left {
+    margin: 10px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 40%;
+    padding: 0 50px;
+    
+}
+
+.header-left h1 {
+    font-size: 30px;
+    float: left;
+}
+.header-left img {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+.header-left h3 {
+    font-size: 28px;
+} */
+nav {
+    flex:1;
+    margin:0px 20px;
+    width: 100%;
+ 
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    gap: 20px;
+    
+}
+header > nav > ul >  li > a {
+    font-size: 23px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+/* logowanie */
+#kontakt_main_block {
+    margin: auto;
+   
+    width: 24%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+form {
+    width: 100%;
+    height: 100%;
+}
+::placeholder {
+    color: white;
+    opacity: 1;
+  }
+  
+  ::-ms-input-placeholder { 
+    color: white;
+  }
+h2 {
+    letter-spacing: 3px;
+    color: white;
+    font-size: 38px;
+    font-weight: 500;
+    margin-left: 37%;
+    margin-bottom: 9px;
+    
+}
+#sociale {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6%;
+}
+#sociale img {
+    width: calc(85%/6);
+}
+input , button{
+    width: 90%;
+    height: 30px;
+    padding: 13px 5%;
+    border-radius: 10px;
+    margin: 7px;
+    font-size: 20px;
+    font-weight:400;
+}
+input[type="text"] {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    height: 30px;
+}
+
+input[type="submit"] {
+
+    background-color: white;
+    letter-spacing: 2px;
+    width: 100%;
+    height: 55px;
+    font-weight:bold;
+    margin-bottom: 15px;
+}
+button {
+ 
+    width: 100%;
+    height: 55px;
+    background-color: rgb(176, 146, 182);
+}
+p, a {
+    font-size: 12px;
+    color: white;
+    
+}
+button > a {
+    font-size: 19px;
+    color: white;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-weight:bold;
+    color: rgb(88, 35, 250);
+    width: 100%;
+    height: 100%;
+}
+.input-container {
+    position: relative;
+    width: 100%;
+
+}
+
+.text-input {
+    width: 90%;
+    height: 40px;
+    padding: 8px 5%;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight:400;
+}
+
+
+.input-label {
+    position: absolute;
+    top: 20px;
+    left: 21px;
+    font-size: 20px;
+    font-weight:400;
+    color: rgb(255, 255, 255);
+    pointer-events: none;
+
+    padding: 0 5px; 
+}
+
+#tresc {
+    height: 80px !important;
+    
+}
