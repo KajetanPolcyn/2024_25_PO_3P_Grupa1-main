@@ -205,26 +205,26 @@ if (!$offer) {
                     <h4>Usługi:</h4>
                     <article>
                         <ul>
-                            <li><img src="../assets/icon/inst.png" alt="ikonka_wifi">Bezpłatny Parking</li>
-                            <li><img src="../assets/icon/inst.png" alt="ikonka_wifi">Darmowy Wi-Fi</li>
-                            <li><img src="../assets/icon/inst.png" alt="ikonka_wifi">Siłownia</li>
-                            <li><img src="../assets/icon/inst.png" alt="ikonka_wifi">Basen</li>
-                            <li><img src="../assets/icon/inst.png" alt="ikonka_wifi">Śniadanie za darmo</li>
-                            <li><img src="../assets/icon/inst.png" alt="ikonka_wifi">Atrakcje dla całej rodziny</li>
+                            <li><img src="../assets/icon/parking.png" alt="ikonka_parking">Bezpłatny Parking</li>
+                            <li><img src="../assets/icon/wifi.png" alt="ikonka_wifi">Darmowy Wi-Fi</li>
+                            <li><img src="../assets/icon/silownia.png" alt="ikonka_silownia">Siłownia</li>
+                            <li><img src="../assets/icon/basen.png" alt="ikonka_basen">Basen</li>
+                            <li><img src="../assets/icon/sniadanie.png" alt="ikonka_sniadanie">Śniadanie za darmo</li>
+                            <li><img src="../assets/icon/atrakcje.png" alt="ikonka_atrakcje">Atrakcje dla całej rodziny</li>
                             <li></li>
-                            <li><img src="../assets/icon/inst.png" alt="ikonka_wifi">Pokoje do spotkań</li>
+                            <li><img src="../assets/icon/spoleczenstwo.png" alt="ikonka_pokoje">Pokoje do spotkań</li>
                         </ul>
                     </article>
                     <br><br>
                     <h4>Wyposażenie pokoi</h4>
                     <article>
                         <ul>
-                            <li><img src="../assets/icon/inst.png" alt="ikonka_wifi">Klimatyzacja</li>
-                            <li><img src="../assets/icon/inst.png" alt="ikonka_wifi">Bezpieczeństwo</li>
-                            <li><img src="../assets/icon/inst.png" alt="ikonka_wifi">Obsługa klienta</li>
-                            <li><img src="../assets/icon/inst.png" alt="ikonka_wifi">Komfort</li>
+                            <li><img src="../assets/icon/klimatyzacja.png" alt="ikonka_klimatyzacja">Klimatyzacja</li>
+                            <li><img src="../assets/icon/bezpieczenstwo.png" alt="ikonka_bezpieczenstwo">Bezpieczeństwo</li>
+                            <li><img src="../assets/icon/obsluga.png" alt="ikonka_obsluga">Obsługa klienta</li>
+                            <li><img src="../assets/icon/pokoje.png" alt="ikonka_wifi">Komfort</li>
                             <li></li>
-                            <li><img src="../assets/icon/inst.png" alt="ikonka_wifi">Minibar</li>
+                            <li><img src="../assets/icon/restauracja.png" alt="ikonka_wifi">Minibar</li>
 
                         </ul>
                     </article>
@@ -232,10 +232,10 @@ if (!$offer) {
                     <h4>Rodzaje pokojów</h4>
                     <article>
                         <ul>
-                            <li><img src="../assets/icon/inst.png" alt="ikonka_wifi">standart</li>
-                            <li><img src="../assets/icon/inst.png" alt="ikonka_wifi">dla nie palących</li>
-                            <li><img src="../assets/icon/inst.png" alt="ikonka_wifi">biznes</li>
-                            <li><img src="../assets/icon/inst.png" alt="ikonka_wifi">rodzinowe</li>
+                            <li><img src="../assets/icon/pokoje.png" alt="ikonka_wifi">standart</li>
+                            <li><img src="../assets/icon/palenie.png" alt="ikonka_wifi">dla nie palących</li>
+                            <li><img src="../assets/icon/pokoje.png" alt="ikonka_wifi">biznes</li>
+                            <li><img src="../assets/icon/pokoje.png" alt="ikonka_wifi">rodzinowe</li>
                         </ul>
                     </article>
                     <br><br>
@@ -245,7 +245,7 @@ if (!$offer) {
                             <li>
                                 <div class="kolumna">
                                     <span>Klasa Hotelu</span>
-                                    <img src="../assets/pictures/pictureone.jpg" alt="gwiazdki">
+                                    <img src="../assets/pictures/gwiazdki.png" alt="gwiazdki">
                                 </div>
                             </li>
                             <li>
